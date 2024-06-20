@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --section-background-color: #d9ead3;
+    --section-title-color: #274e13;
+}
+
+body {
+    background-color: var(--section-background-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: var(--section-background-color);
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #38761d;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 10px;
+    color: var(--section-title-color);
+    font-size: 3vw;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin: 15px;
+}
+
+header nav ul li a {
+    color: #38761d;
+    text-decoration: none;
+    font-size: 1.8vw;
+    padding: 20px;
+}
+
+section {
+    padding: 50px;
+    border-bottom: 1px solid #38761d;
+}
+
+.about-me img {
+    width: 300px;
+    height: 400px;
+}
+
+.about-me-description {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-me-description p {
+    color: var(--text-color);
+}
+
+.section-title {
+    color: var(--section-title-color);
+    font-size: 2vw;
+}
+
+.projects h3{
+    color: var(--text-color);
+}
