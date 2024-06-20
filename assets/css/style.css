@@ -14,6 +14,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+section {
+    padding: 50px;
+    border-bottom: 1px solid #38761d;
+}
+
+.section-title {
+    color: var(--section-title-color);
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+/* header & nav */
 header {
     background: var(--section-background-color);
     padding: 20px 35px;
@@ -56,11 +68,7 @@ header nav ul li a:hover {
     color: #d9ead3;
 }
 
-section {
-    padding: 50px;
-    border-bottom: 1px solid #38761d;
-}
-
+/* about me */
 .about-me img {
     width: 40%;
     height: 45%;
@@ -82,11 +90,15 @@ section {
     text-align: center;
 }
 
-.section-title {
-    color: var(--section-title-color);
-    font-size: 2vw;
+.project{
+    padding: 5px;
+}
+.project img {
+    width: 30%;
+    height: 20%;
 }
 
-.projects h3{
-    color: var(--text-color);
+.project h3 a{
+    color: black;
+
 }
