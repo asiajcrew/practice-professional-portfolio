@@ -20,9 +20,15 @@ header {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid #38761d;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    
 }
 
-header h1 {
+header h1 a{
+    text-decoration: none;
     font-weight: bold;
     margin: 10px;
     color: var(--section-title-color);
@@ -45,14 +51,23 @@ header nav ul li a {
     padding: 20px;
 }
 
+header nav ul li a:hover {
+    background: #38761d;
+    color: #d9ead3;
+}
+
 section {
     padding: 50px;
     border-bottom: 1px solid #38761d;
 }
 
 .about-me img {
-    width: 300px;
-    height: 400px;
+    width: 40%;
+    height: 45%;
+    display: flex;
+    margin: 0 auto;
+    border: 5px solid #274e13;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .about-me-description {
@@ -61,7 +76,10 @@ section {
 }
 
 .about-me-description p {
-    color: var(--text-color);
+    font-size: 1.5vw;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .section-title {
