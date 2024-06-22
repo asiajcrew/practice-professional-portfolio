@@ -8,7 +8,7 @@ A website that showcases my coding experience
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://asiajcrew.github.io/practice-professional-portfolio
 
 ## Contribution
 Asia Crew
