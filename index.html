@@ -27,44 +27,53 @@
     </header>
 
     <!-- About me -->
-    <section id="about-me" class="about-me">
-        <div class="about-me-img">
-            <img src="./assets/images/selfie_1.jpg" alt="selfie">
-        </div>
-        <div class="about-me-description">
-            <h2 class="section-title">Welcome to my portfolio</h2>
-            <p>Thanks for visiting my page! Feel free to browse around, view my recent work, and if you like what you see then give me a shout! My contact information is located at the bottom of the page.</p>
+    <section id="about-me">
+        <div class="about-me">
+            <div class="about-me-img-container">
+                <img class="about-me-img" src="./assets/images/selfie_1.jpg" alt="selfie">
+            </div>
+            <div class="about-me-description">
+                <h2>Welcome to my portfolio</h2>
+                <p>I'm a beginnner coder specializing in front-end coding using html and CSS. I will soon be coding with Javascript, SQL, and REACT so keep your eyes open for cool updates to my portifolio. You can view my projects on <a href="https://github.com/asiajcrew">Github</a> at any time!</p>
+            </div>
         </div>
     </section>
 
     <!-- Projects -->
-    <h2 class="section-title">Projects</h2>
-    <section id="projects" class="projects">
-        <article class="project">
-            <img src="./assets/images/hero-bg.jpg" alt="runner tying their laces" />
-            <h3 class="project-name">
-                <a href="https://asiajcrew.github.io/Practice-run-buddy/">Run Buddy</a>
-            </h3>
-        </article>
-
-        <article class="project">
-            <img src="./assets/images/Horiseon-screenshot.png" alt="laptop screen with increasing line chart" />
-            <h3 class="project-name">
-                <a href="https://asiajcrew.github.io/Practice-Horiseon/">Horiseon</a>
-            </h3>
-        </article>
-
-        <article class="project">
-            <h3 class="project-name">Coming Soon</h3>
-        </article>
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects">
+            <article class="project bigger-project">
+                <a href="https://asiajcrew.github.io/Practice-run-buddy/" style="text-decoration: none;">
+                    <img src="./assets/images/hero-bg.jpg" alt="runner tying their laces" />
+                    <h3 class="project-name">Run Buddy</h3>
+                </a>
+            </article>
+    
+            <article class="project smaller-project">
+                <a href="https://asiajcrew.github.io/Practice-Horiseon/" style="text-decoration: none;">
+                    <img src="./assets/images/digital-marketing-meeting.jpg" alt="people sharing ideas in a meeting" />
+                    <h3 class="project-name">Horiseon</h3>
+                </a>
+            </article>
+    
+            <article class="project smaller-project">
+                <img src="./assets/images/03-javascript-homework-demo.png" alt="screenshot of a password generator site" />
+                <h3 class="project-name">Coming Soon</h3>
+            </article>
+        </div>
     </section>
 
     <!-- Contact Info -->
-    <section id="contact-info" class="contact-info">
+    <section id="contact-info">
         <h2 class="section-title">Contact Information</h2>
-        <h3>Phone Number: <span>555.555.5555</span></h3>
-        <h3>Email: <span>asiacrew1@gmail.com</span></h3>
+        <div class="contact-info">
+            <h3>Phone Number: <a href="tel:555.555.5555">555.555.5555</a></h3>
+            <h3>|</h3>
+            <h3>Website: <a href="https://github.com/asiajcrew">Github</a></h3>
+            <h3>|</h3>
+            <h3>Email: <a href="mailto://asiacrew1@gmail.com">asiacrew1@gmail.com</a></h3>
+        </div>
     </section>
-
 </body>
 </html>
